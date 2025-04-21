@@ -19,12 +19,27 @@ class Router {
         return explode("/", $removeQueryParams);
     }
 
+    /* protected function handleMainRoutes() {
+        if ($this->uriArray[1] === '' && $_SERVER['REQUEST_METHOD'] === 'GET') {
+            $mainController = new MainController();
+            $mainController->homepage();
+        }
+    } */
+
     protected function handleMainRoutes() {
         if ($this->uriArray[1] === '' && $_SERVER['REQUEST_METHOD'] === 'GET') {
             $mainController = new MainController();
             $mainController->homepage();
         }
+    
+        // Handle /album/:albumSlug
+        if ($this->uriArray[1] === 'album' && isset($this->uriArray[2]) && $_SERVER['REQUEST_METHOD'] === 'GET') {
+            $albumSlug = $this->uriArray[2];
+            $albumController = new \app\controllers\AlbumController();
+            $albumController->show($albumSlug);
+        }
     }
+    
 
     protected function handleUserRoutes() {
         if ($this->uriArray[1] === 'users' && $_SERVER['REQUEST_METHOD'] === 'GET') {
