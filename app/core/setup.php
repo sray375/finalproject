@@ -12,7 +12,7 @@ require '../app/models/User.php';
 //set up env variables
 $env = parse_ini_file('../.env');
 
-define('DBNAME', $env['DBNAME']);
-define('DBHOST', $env['DBHOST']);
-define('DBUSER', $env['DBUSER']);
-define('DBPASS', $env['DBPASS']);
+define('DBNAME', $env['DB_NAME']);
+define('DBHOST', $env['DB_HOST']);
+define('DBUSER', $env['DB_USER']);
+define('DBPASS', $env['DB_PASS']);
