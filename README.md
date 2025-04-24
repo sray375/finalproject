@@ -11,6 +11,8 @@ This project is a full-stack web application on lana's lyrics in her discogrpahy
 ## Access
 
 After starting MAMP and visiting http://localhost:8888/discography, here’s where everything lives:
+***please run the SQL file to seed your MySQL database. Then launch via MAMP or equivalent with your document root pointing to /finalproject/public***
+
 
 ### Discography
 Go to:  
@@ -70,4 +72,3 @@ Project folder: finalproject
 http://localhost:8888/finalproject/public/index.php?url=discography
 only Product DB view: http://localhost:8888/products
 
-***please run the SQL file to seed your MySQL database. Then launch via MAMP or equivalent with your document root pointing to /finalproject/public***
