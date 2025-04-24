@@ -8,10 +8,8 @@ use app\core\Controller;
 class MainController extends Controller {
 
     public function homepage() {
-        //remember to route relative to index.php
-        //require page and exit to return an HTML page
-        $this->returnView('./assets/views/main/homepage.html');
-    }
+        $this->returnView('./assets/views/main/albums.php');
+    }    
 
     public function notFound() {
     }
@@ -20,6 +18,25 @@ class MainController extends Controller {
         $this->returnView('assets/views/main/albums.php');
     }
     
+    public function productsView() {
+        try {
+            $pdo = new \PDO(
+                "mysql:host=" . DBHOST . ";dbname=" . DBNAME,
+                DBUSER,
+                DBPASS
+            );
+            $stmt = $pdo->query("SELECT * FROM products");
+            $products = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        } catch (\PDOException $e) {
+            die("Database error: " . $e->getMessage());
+        }
+    
+        include('./assets/views/main/products.php');
+    }
+    
+    
+    
 }
+
 
  

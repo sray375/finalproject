@@ -39,6 +39,15 @@ class Router {
             $mainController->albumsView();
         }
             
+        if (
+            isset($this->uriArray[0]) &&
+            $this->uriArray[0] === 'products' &&
+            $_SERVER['REQUEST_METHOD'] === 'GET'
+        ) {
+            $mainController = new MainController();
+            $mainController->productsView();
+        }
+        
         
     }
     
@@ -91,7 +100,26 @@ class Router {
         ) {
             $albumController = new AlbumController();
             $albumController->show('lyric-challenge');
-        }        
+        }     
+        
+        if (
+            isset($this->uriArray[0], $this->uriArray[1]) &&
+            $this->uriArray[0] === 'album' &&
+            $this->uriArray[1] === 'honeymoon'
+        ) {
+            $albumController = new AlbumController();
+            $albumController->show('honeymoon');
+        }
+        
+        if (
+            isset($this->uriArray[0], $this->uriArray[1]) &&
+            $this->uriArray[0] === 'album' &&
+            $this->uriArray[1] === 'blue-banisters'
+        ) {
+            $albumController = new AlbumController();
+            $albumController->show('blue-banisters');
+        }
+        
 
         
     }

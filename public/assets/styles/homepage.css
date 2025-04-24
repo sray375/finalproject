@@ -64,3 +64,41 @@ body {
     max-width: 100%;
   }
   
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-top: 40px;
+  }
+  
+
+  .album-preview {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .album-preview:hover {
+    transform: scale(1.03);
+  }
+
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .container h1 {
+    margin-bottom: 30px;
+  }
+
+  
+  .album-preview img:hover {
+    filter: brightness(1.1);
+  }
+  

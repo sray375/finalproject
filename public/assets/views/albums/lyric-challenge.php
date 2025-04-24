@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Write a Lana-Inspired Lyric</h1>
+    <h1>write a lyric</h1>
     <p>Use the word: <strong id="promptWord"></strong></p>
 
     <form id="lyricForm">
