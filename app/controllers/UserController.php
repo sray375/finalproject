@@ -1,7 +1,8 @@
 <?php
 
 namespace app\controllers;
-use app\models\User;
+use app\core\Controller;
+
 
 //this is an example controller class, feel free to delete
 class UserController extends Controller {
@@ -16,3 +17,4 @@ class UserController extends Controller {
     }
 
 }
+

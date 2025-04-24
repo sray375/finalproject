@@ -1,12 +1,13 @@
 <?php
 
-//require our files, remember should be relative to index.php
-require '../app/core/Router.php';
-require '../app/models/Model.php';
-require '../app/controllers/Controller.php';
-require '../app/controllers/MainController.php';
-require '../app/controllers/UserController.php';
-require '../app/models/User.php';
+require_once __DIR__ . '/Router.php';
+require_once __DIR__ . '/Controller.php';  // 👈 correct relative path
+require_once __DIR__ . '/../models/Model.php';
+require_once __DIR__ . '/../controllers/MainController.php';
+require_once __DIR__ . '/../controllers/AlbumController.php';
+require_once __DIR__ . '/../controllers/UserController.php';
+require_once __DIR__ . '/../models/User.php';
+
 
 
 //set up env variables

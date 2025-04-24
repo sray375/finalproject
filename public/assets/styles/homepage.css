@@ -1,3 +1,66 @@
-p {
-    color: blue;
-}
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #fdf6f9; /* soft romantic pink */
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #4a536b; /* soft cool slate blue */
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #6d6fa3; /* dusty lavender blue */
+    margin-top: 30px;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #6d6fa3; /* cool blue-violet */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #4a536b;
+  }
+  
+  em {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    color: #6a6e89; /* softened slate */
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  p, h2, em, strong {
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 20px; /* rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* soft drop shadow */
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
