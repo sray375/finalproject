@@ -14,8 +14,8 @@
     <img src="/assets/images/honeymoon.jpg" alt="Honeymoon Album Cover" width="300" />
 
     <h2>Honeymoon</h2>
-    <p><em>"We could cruise to the blues..."</em></p>
-    <p><strong>Analysis:</strong> The title track evokes cinematic sadness and surreal romance. Lana's vocals drift like fog across noir strings, blurring fantasy with melancholy longing.</p>
+    <p><em>"We both know the history of violence that surrounds you, But I'm not scared/There's nothing to lose now that I've found you"</em></p>
+    <p>lana feels safe in a dangerous man. any hurt he inflicts on her won't matter. she has everything because she has him. </p>
 
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4X5zaUdlRhvBWYnyQIKmH8" width="300" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 

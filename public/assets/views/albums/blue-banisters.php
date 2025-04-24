@@ -13,8 +13,9 @@
     <img src="/assets/images/blue-banisters.jpg" alt="Blue Banisters Album Cover" width="300" />
 
     <h2>Wildflower Wildfire</h2>
-    <p><em>"Baby, I, I, I, I've been running on stardust..."</em></p>
-    <p><strong>Analysis:</strong> A devastating expression of trauma and tenderness. Lana’s voice cracks under the weight of beauty and vulnerability, turning pain into poetic resistance.</p>
+    <p><em>"And baby I, I've been running on star drip IV's for so long / I wouldn't know how cruel the world was / Hot fire, hot weather, hot coffee, I'm better
+    / So I turn but I learn (it from you, babe)"</em></p>
+    <p> on one endless trip, comfortably numb. it saves her from feeling anything- pain, hot, cold. But a lover guides her out of the trip and into a safer reality </p>
 
     <iframe style="border-radius:12px" 
       src="https://open.spotify.com/embed/track/7fvTXmlzhOUE7WUD6aJC4N" 

@@ -27,6 +27,14 @@
   <div class="container">
     <h1>lana writes</h1>
 
+    <!-- Poetry Book displayed above the albums -->
+    <div class="album-preview">
+      <a href="/products">
+        <img src="/assets/images/violet.jpg" alt="Violet Book Cover" width="200" />
+        <h2>Poetry Book</h2>
+      </a>
+    </div>
+
     <div class="album-grid">
       <div class="album-preview">
         <a href="/album/born-to-die">
@@ -61,7 +69,7 @@
       <div class="album-preview">
         <a href="/album/lyric-challenge">
           <img src="/assets/images/typewriter.jpg" alt="Lyric Challenge" width="200" />
-          <h2>write your own lyric</h2>
+          <h2>you write</h2>
         </a>
       </div>
     </div>
