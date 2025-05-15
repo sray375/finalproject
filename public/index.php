@@ -1,6 +1,8 @@
 <?php
-require_once '../app/core/setup.php';
-require_once '../app/core/Router.php';
+//require_once '../app/core/setup.php';
+require_once __DIR__ . '/app/core/setup.php';
+require_once __DIR__ . '/app/core/Router.php';
+//require_once '../app/core/Router.php';
 
 
 use app\core\Router;
