@@ -1,0 +1,20 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "This project is a full-stack web application on lana's lyrics in her discogrpahy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sray375/finalproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sray375/finalproject/issues"
+  },
+  "homepage": "https://github.com/sray375/finalproject#readme"
+}
