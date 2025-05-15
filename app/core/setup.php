@@ -10,10 +10,8 @@ require_once __DIR__ . '/../models/User.php';
 
 
 
-//set up env variables
-$env = parse_ini_file('../.env');
+define('DBNAME', 'your_database_name');
+define('DBHOST', 'your_database_host');  // usually 'localhost' or '127.0.0.1'
+define('DBUSER', 'your_database_user');
+define('DBPASS', 'your_database_password');
 
-define('DBNAME', $env['DB_NAME']);
-define('DBHOST', $env['DB_HOST']);
-define('DBUSER', $env['DB_USER']);
-define('DBPASS', $env['DB_PASS']);
