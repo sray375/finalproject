@@ -1,14 +1,13 @@
 FROM php:8.1-apache
 
-# Enable Apache mod_rewrite (used in most PHP apps)
+# Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
-# Copy your project files to the Apache web directory
-COPY . /var/www/html/
+# Copy ONLY the public/ folder into the web root
+COPY public/ /var/www/html/
 
-# Set working directory
+# Set working directory (optional)
 WORKDIR /var/www/html/
 
-# Expose port 80
 EXPOSE 80
 
